@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/mahasiwa',[MahasiswaController::class,'index']);
+Route::get('/mahasiswa',[MahasiswaController::class,'index']);
